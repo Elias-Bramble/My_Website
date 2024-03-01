@@ -6,15 +6,26 @@ body {
     font-family: Arial;
     width: 100%;
     height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto auto;
+    display: grid;
+    grid-template-areas: 
+    "hdr hdr"
+    "sdb man"
+    "yel yel"
+    "sec sec"
+    ;
 }
 
-nav img {
+header{
+    grid-area: hdr;
+}
+#nav_head img {
     border: solid #ffd700;
     background-color: #ffa500;
 }
 
-nav {
-    position:fixed;
+#nav_head {
     top: 0;
     left: 0;
     width: 100%;
@@ -25,7 +36,7 @@ nav {
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-nav .logo {
+#nav_head .logo {
     padding: 22px 20px;
     height: 30px;
     float: left;
@@ -35,7 +46,7 @@ nav .logo {
     color: #fff;
 }
 
-nav ul {
+#nav_head ul {
     list-style: none;
     float: right;
     margin: 0;
@@ -43,7 +54,7 @@ nav ul {
     display: flex;
 }
 
-nav ul li a {
+#nav_head ul li a {
     line-height: 80px;
     color: #fff;
     padding: 12px 30px;
@@ -53,7 +64,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-nav ul li a:hover {
+#nav_head ul li a:hover {
     background: #ffff76;
     border-radius: 6%;
     font-size: large;
@@ -65,25 +76,19 @@ nav ul li a:hover {
     text-shadow: -2px -2px 4px red;
 }
 
-main {
-    clear: both;
-    padding-top: 5.5%;
-    padding-left: 1%;
-}
+
 
 .navbar ul {
     list-style: none;
 }
 
 #sidebarA {
-    width:250px;
-    height: 640px;
     margin-left: .1em;
     margin-top: 0px;
-    float: left;
     border-right: 5px solid hsl(0, 0%, 0%);
     color: #f5f5dc;
     background-color: rgba(0, 0, 0,0.6);
+    grid-area: sdb;
 }
 
 * {
@@ -121,4 +126,26 @@ main {
     border-radius: 6px;
     font-size: large;
     color: #000000;
+}
+
+main {
+    font-size: large;
+    margin: 2em 4em;
+    grid-area: man;
+}
+
+section {
+    background-color: beige;
+  
+    grid-area: sec;
+}
+
+section h2, section p {
+  margin: 2em 4em;
+}
+
+div.yellow_bar {
+    grid-area: yel;
+    height: 4em;
+    background-color: orange;
 }
