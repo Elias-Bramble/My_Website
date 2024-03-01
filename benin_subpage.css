@@ -132,15 +132,21 @@ main {
     font-size: large;
     margin: 2em 4em;
     grid-area: man;
+    color: gold;
+    background-color: rgba(0, 0, 0,0.8);
+}
+
+main h2, main p {
+     margin: 1em 2em;
 }
 
 section {
     background-color: beige;
-  
     grid-area: sec;
 }
 
 section h2, section p {
+  color: #000000;
   margin: 2em 4em;
 }
 
@@ -148,4 +154,10 @@ div.yellow_bar {
     grid-area: yel;
     height: 4em;
     background-color: orange;
+}
+
+.adinkra {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
