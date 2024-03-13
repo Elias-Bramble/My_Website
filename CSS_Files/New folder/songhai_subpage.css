@@ -1,0 +1,116 @@
+body {
+    background: url(Images/sunni_ali.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    width: 100%;
+  
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto auto;
+    display: grid;
+    grid-template-areas: 
+    "hdr hdr"
+    "sdb man"
+    "yel yel"
+    "sec sec"
+    ;
+}
+
+#sidebarA {
+    margin-top: 0px;
+    border-right: 5px solid hsl(0, 0%, 0%);
+    color: #f5f5dc;
+    background-color: rgba(0, 0, 0,0.6);
+    grid-area: sdb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_list ul {
+    padding-top: 50px;
+    list-style-type: none;
+    margin-left: 1.25em;
+    margin-bottom: 1.5em;
+}
+
+#nav_list ul li {
+    width: 200px;
+    margin-bottom: .5em;
+    border: 2px solid #ffd700;
+}
+
+#nav_list ul li a {
+    display: block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+#nav_list ul li a.current {
+    background-color: #ff0000;
+}
+
+#nav_list ul li a:hover {
+    background: #ffff76;
+    border-radius: 6px;
+    font-size: large;
+    color: #000000;
+}
+
+main {
+    font-size: large;
+    margin: 2em 4em;
+    grid-area: man;
+    color: gold;
+    background-color: rgba(0, 0, 0,0.8);
+}
+
+main h2, main p {
+    margin: .5em 1em;
+}
+
+main .songhai_map {
+    float: right;
+    color: #000000;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+section {
+    background-color: beige;
+    padding-left: 15%;
+    padding-right: 15%;
+    grid-area: sec;
+
+}
+
+section h2, section p {
+  color: #000000;
+  margin: 2em 4em;
+}
+
+div.yellow_bar {
+    grid-area: yel;
+    height: 4em;
+    background-color: orange;
+}
+
+section img {
+    float: right;
+    margin-left: 1%;
+}
+
+.adinkra {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section #footer {
+    text-align: center;
+}

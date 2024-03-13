@@ -1,0 +1,129 @@
+header{
+    grid-area: hdr;
+}
+
+#nav_head img {
+    border: solid #ffd700;
+    background-color: #ffa500;
+    margin-top: .5%;
+    width: 5%;
+    height: 80%;
+}
+
+#nav_head {
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+#nav_head .logo {
+    padding: 22px 20px;
+    float: left;
+    font-size: 150%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#nav_head ul {
+    margin-top: 2.5%;
+    margin-right: 5%;
+    list-style: none;
+    float: right;
+    display: flex;
+}
+
+#nav_head ul li a {
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#nav_head ul li a:hover {
+    background: #ffff76;
+    border-radius: 6%;
+    font-size: large;
+    color: #000000;
+}
+
+.logo {
+    color: #ffff00;
+    text-shadow: -2px -2px 4px red;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+@media only screen and (min-width: 886.400px) and (max-width: 1120.800px) {
+
+    #nav_head ul li a {
+    font-size: 75%;
+    }
+
+    #nav_head .logo {
+    font-size: 100%;
+    }
+
+    #nav_head ul li a:hover {
+    background: #ffff76;
+    border-radius: 6%;
+    font-size: small;
+    color: #000000;
+    }
+}
+
+@media only screen and (min-width: 787.200px) and (max-width: 886.400px) {
+    
+    #nav_head ul li a {
+        font-size: 35%;
+    }
+
+    #nav_head .logo {
+        font-size: 50%;
+    }
+    
+    #nav_head ul li a:hover {
+        background: #ffff76;
+        border-radius: 6%;
+        font-size: x-small;
+        color: #000000;
+    }
+}
+
+@media only screen and (max-width: 787.200px) {
+    #nav_head ul {
+       visibility: hidden;
+    }
+    
+    #nav_head ul li a {
+        visibility: hidden;
+    }
+
+    #nav_head .logo {
+        font-size: 100%;
+        float: left;
+    }
+    
+    #nav_head ul li a:hover {
+        background: #ffff76;
+        border-radius: 6%;
+        font-size: x-small;
+        color: #000000;
+    }
+
+    #nav_head img {
+        border: solid #ffd700;
+        background-color: #ffa500;
+        margin-top: .5%;
+        width: 5%;
+        height: 50%;
+        margin-left: 5%;
+    }
+
+    #nav_head {
+        height: 100px;
+    }
+}

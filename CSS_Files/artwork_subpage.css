@@ -1,0 +1,71 @@
+body {
+    background: url(/Background_Images/pexels-henry-&-co-1939485.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    width: 100%;
+  
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto auto;
+    display: grid;
+    grid-template-areas: 
+    "hdr hdr"
+    "man man"
+    "bac bac"
+    "sec sec"
+    ;
+}
+
+main {
+    margin: 5% ;
+    grid-area: man;
+    background-color: #f5f5dc;
+    border: solid #ffa500 5px;
+}
+
+h2 {
+    border: solid;
+    color: #ffa500;
+    background-color: #ffd700;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+div h2 img {
+    float: left;
+    width: 2em;
+}
+
+* p {
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: .5em;
+}
+
+table, th, td {
+    margin-top: 2em;
+    border: 5px solid #000000;
+}
+
+th, td {
+    padding: .2em 3em;
+}
+
+#benin img, #mali img {
+    height: 250px;
+    width: 150px;
+    border: solid;
+}
+
+#benin, #mali {
+    margin-left: 12%;
+}
+
+main #footer {
+    text-align: center;
+    text-transform: none;
+}
+
