@@ -74,7 +74,7 @@ main h2, main p {
      margin: 1em 2em;
 }
 
-main img, section img {
+main img {
     float: right;
     border: solid;
     color: #000000;

@@ -1,0 +1,32 @@
+/*This CSS is to format all of the pictures within the section part of each subpage*/
+
+/*The Songhai subpage*/
+section #sonni {
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-style: solid;
+}
+
+/*The Benin/Oyo subpages*/
+main img, section #Current_Oba, section #bronze  {
+    float: right;
+    border: solid;
+    color: #000000;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+/*The Mali subpage*/
+
+
+
+/*The Oyo subpage*/
+
+section #bronze {
+    float: right;
+    border: solid;
+    color: #000000;
+
+}

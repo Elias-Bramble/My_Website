@@ -17,11 +17,40 @@ body {
     ;
 }
 
+main #subhead ul {
+    padding-top: 2%;
+    list-style: none;
+    display: flex;
+    margin: auto auto;
+    
+    
+}
+
+main #subhead ul li {
+    width: 50%;
+    padding: 3% 1%;
+    
+}
+
+main #subhead ul a {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    
+    border-radius: 20px;
+    padding: 5% 5%;
+}
+
+main #subhead ul a:hover {
+    background: orange;
+}
 main {
     margin: 5% ;
     grid-area: man;
     background-color: #f5f5dc;
     border: solid #ffa500 5px;
+    padding: 0% 0%;
 }
 
 h2 {
@@ -30,7 +59,7 @@ h2 {
     background-color: #ffd700;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 30px;
 }
 
