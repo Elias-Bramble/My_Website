@@ -19,8 +19,13 @@ main img, section #Current_Oba, section #bronze  {
     margin-left: 1%;
 }
 
-/*The Mali subpage*/
-
+/*The Ashanti subpage*/
+section #First_Image {
+    float: left;
+    margin-right: 1%;
+    margin-bottom: .5%;
+    border: solid;
+}
 
 
 /*The Oyo subpage*/

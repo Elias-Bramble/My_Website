@@ -1,5 +1,6 @@
 body {
     background: url(/Background_Images/pexels-henry-&-co-1939485.jpg);
+    background-color: #f5f5dc;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -79,16 +80,13 @@ table, th, td {
     border: 5px solid #000000;
 }
 
-
-
-#benin img, #mali img {
-    height: 100%;
-    width: 100%;
-    border: solid;
+#benin img {
+    margin: auto auto;
+    display: block;
 }
 
-#benin, #mali {
-    margin-left: 12%;
+#benin {
+    margin-left: 15%;
 }
 
 main #footer {
@@ -96,6 +94,7 @@ main #footer {
     text-transform: none;
 }
 
+/*interpage navigation buttons and their hover effects*/
 main .button img {
     float: left;
     height: 2em;
@@ -119,4 +118,17 @@ main .pages a:hover {
     font-size: large;
     background-color: orange;
     border-radius: .5em;
+}
+
+@media only screen and (min-width: 503px) and (max-width: 990px) {
+#benin img {
+    height: 100px;
+}
+}
+
+@media only screen and (max-width: 800.200px) 
+{
+    #benin img {
+        height: 50px;
+    }
 }
