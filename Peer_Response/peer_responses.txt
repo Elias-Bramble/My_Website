@@ -1,0 +1,13 @@
+Principal of Repetition: You want a consistent navigation menu between the homepage and any subpages, so users maintain an intuition of how to navigate your website. I like the navigation you have setup on the subpage the most right now. Maybe you copy these navigation menus over to the homepage as well? It's interesting to have both navigation elements on the top header and on the left aside. Let's just keep them consistent from page to page!
+
+I'll add more comments as I have time between meetings today. :)
+
+(Response) I copied the subpage navigation menus to all of the other subpages except the art subpage. The layout is too different to implement the left aside menu.
+--------------------------------------------------------
+For links to the Wikipedia articles, I'd recommend making those links open in a separate tab. (Add a target attribute of "_blank" to the a tag). That way, people still have your website open in a different tab after they go exploring on Wikipedia.
+
+I like the hover effect on the navigation menu, but the hovered background-color is rounded whereas the button is normally square. (My guess is that you have a border-radius in the case of a hover situation.) I'd keep it consistent between the hovered and un-hovered state. I could see square corners or rounded being good.
+
+I know you still have additional pages to add, but you're moving in the right direction!
+
+(Reponse) All maps located on the subpage introduction section are clickable and open to a new window for more information about their respective topics. I removed the border of all aside menus but kept the hover elements as rounded.
