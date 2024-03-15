@@ -41,7 +41,7 @@ body {
 #nav_list ul li {
     width: 200px;
     margin-bottom: .5em;
-    border: 2px solid #ffd700;
+    border-radius: 2px solid #ffd700;
 }
 
 #nav_list ul li a {
@@ -113,6 +113,18 @@ div.yellow_bar {
 section .button img {
     float: left;
     height: 2em;
+}
+
+section .button img:hover {
+    height: 3em;
+    background-color: orange;
+    border-radius: 1em;
+}
+
+section .pages a:hover {
+    font-size: large;
+    background-color: orange;
+    border-radius: .5em;
 }
 
 section .pages {

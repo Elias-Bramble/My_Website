@@ -102,6 +102,12 @@ main .button img {
     margin-left: 1%;
 }
 
+main .button img:hover {
+    height: 3em;
+    background-color: orange;
+    border-radius: 1em;
+}
+
 main .pages {
     float: right;
     display: flex;
@@ -109,3 +115,8 @@ main .pages {
     margin-right: 1%;
 }
 
+main .pages a:hover {
+    font-size: large;
+    background-color: orange;
+    border-radius: .5em;
+}
