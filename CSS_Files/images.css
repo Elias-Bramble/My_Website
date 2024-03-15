@@ -6,6 +6,7 @@ section #sonni {
     margin-right: 1%;
     margin-bottom: 1%;
     border-style: solid;
+    width: 50%;
 }
 
 /*The Benin/Oyo subpages*/
@@ -30,3 +31,10 @@ section #bronze {
     color: #000000;
 
 }
+
+@media only screen and (max-width: 787.200px) {
+
+    section #sonni, section #bronze, main img, section #Current_Oba, section #bronze {
+        float: left;   
+    }
+    }

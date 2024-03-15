@@ -79,13 +79,11 @@ table, th, td {
     border: 5px solid #000000;
 }
 
-th, td {
-    padding: .2em 3em;
-}
+
 
 #benin img, #mali img {
-    height: 250px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     border: solid;
 }
 
@@ -96,5 +94,18 @@ th, td {
 main #footer {
     text-align: center;
     text-transform: none;
+}
+
+main .button img {
+    float: left;
+    height: 2em;
+    margin-left: 1%;
+}
+
+main .pages {
+    float: right;
+    display: flex;
+    list-style-type: none;
+    margin-right: 1%;
 }
 

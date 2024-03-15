@@ -68,7 +68,7 @@ section #footer {
     color: white;
 }
 
-@media only screen and (min-width: 520.400px) and (max-width: 1170.800px) {
+@media only screen and (max-width:520.400px) {
 
     .container {
        display: block;

@@ -95,11 +95,11 @@ header{
 
 @media only screen and (max-width: 787.200px) {
     #nav_head ul {
-       visibility: hidden;
+        display: none;
     }
     
     #nav_head ul li a {
-        visibility: hidden;
+        display: none;
     }
 
     #nav_head .logo {
@@ -124,6 +124,6 @@ header{
     }
 
     #nav_head {
-        height: 100px;
+        height: 100%;
     }
 }
