@@ -1,3 +1,4 @@
+/*Uses the same head.css as the other pages*/
 body {
     background: url(/Background_Images/pexels-henry-&-co-1939485.jpg);
     background-color: #0000ff;
@@ -120,6 +121,7 @@ main .pages a:hover {
     border-radius: .5em;
 }
 
+/*Breakpoints specifically for the image table*/
 @media only screen and (min-width: 503px) and (max-width: 990px) {
 #benin img {
     height: 100px;
